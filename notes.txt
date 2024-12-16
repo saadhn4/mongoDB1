@@ -1,0 +1,45 @@
+DATABSASE:
+
+A database is a structured collection of data that can be accessed, managed and updated efficiently.
+Databases are essentiall for storing and managing data in applications, websites and business systems.
+
+Types of Databases:
+
+1. Relational Databases(RDBMS): (Table- rows and columns)
+
+- Data is organized into tables (rows and columns)
+- Uses SQL (structured Query Language) for queries
+- Examples: MySQL, PostgreSQL, Oracle, SQL Server
+
+2. NoSQL Databases:
+
+- Types:
+
+1. Document Based: MongoDB, CouchDB
+2. Key value stores: Redis, DynamoDB
+3. Column-Family stores: Cassandra, HBase
+4. Graph Databases: Neo4j
+
+3. NewSQL Databases:
+
+- Combines relational models with NoSQL scalability.
+- Examples: CockroachDB, Google Spanner.
+
+Popular Databases in the Market:
+
+1. Relational Databases (SQL-Based):
+
+- PostgreSQL: Open sournce, advanced RDBMS with robust features like ACID compliance, complex queries and scalability
+-MySQL: Widely used open source RDBMS, popular in web apps.
+-SQLite: Lightweight and embedded RDBMS for smaller apps.
+
+2. NoSQL Databases:
+
+-MongoDB: AA document oriented NoSQL database, ideal for unstructured data
+-Cassandra: High availability and fault tolerance for massive datasets
+- Redis: In-memory key-value store for caching and real time apps
+
+3. NewSQL and Modern Databases:
+
+-CockroachDB: SQL-based, highly scalable, distributed database.
+-Prisma (ORM tool): Not a database but a modern ORM for managing PostgreSQL, MySQL and other dbs
