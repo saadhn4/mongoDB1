@@ -35,7 +35,7 @@ Popular Databases in the Market:
 
 2. NoSQL Databases:
 
--MongoDB: AA document oriented NoSQL database, ideal for unstructured data
+-MongoDB: A document oriented NoSQL database, ideal for unstructured data
 -Cassandra: High availability and fault tolerance for massive datasets
 - Redis: In-memory key-value store for caching and real time apps
 
@@ -43,3 +43,57 @@ Popular Databases in the Market:
 
 -CockroachDB: SQL-based, highly scalable, distributed database.
 -Prisma (ORM tool): Not a database but a modern ORM for managing PostgreSQL, MySQL and other dbs
+
+MongoDB:
+
+It is a NoSQL document-oriented database that stores data in flexible, JSON like documents.
+It's designed for scalability, high performance and ease of dev
+
+-Features:
+
+1. Document-oriented: Data is stored in BSON format (Binary JSON)
+2. Schema-Less: Documents can have different structures
+3. Scalability: Horizontal scaling through sharding
+4. Indexing: Supports indexing for faster query execution
+5. Aggregation Framework: Enables complex data analysis
+6. High availability: Replica sets provide data redundancy
+
+-Core conepts:
+1. Database: A container for collections
+2. Collection: A group of documents, similar to tables in SQL
+3. Document: A set of key value pairs similar to rows in SQL
+4. Fields: Key-value pairs in documents, like columns in SQL
+
+Mongoose Overview:
+
+Mongoose is an ODM (Object Data Modeling) library for MongoDB and Node.js. It provides a schema based solution to model application data, ensuring structure and validation. 
+
+Mongoose Core concepts:
+
+1. Schema: Defines the structure of document
+2. Model: A class with which we create and query Documents
+3. Document: An instance of a model, representing a MongoDB document
+
+MongoDB setup:
+
+1. Visit mongodb.com ; create an account and login
+2. Select M0 cluster
+3. type your name in lowercase and google cloud as provider
+4. click on create deployment
+5. Enter same  username and password (saad) while creating account
+6. Choose connection method
+7. We will be using compass - GUI tool for MongoDB
+8. Choose Windows 64bit 10+ 
+9. copy the link mongodb+srv://saad:saad@saad.jvsbc.mongodb.net/ (i got new link tho bc i created another cluster)
+10. click Done.
+
+MongoDB structure:
+
+1. Organisations
+2. Projects
+3. Clusters
+4. Database
+5. Collection
+6. Document (Object)
+mongodb+srv://saad:<db_password>@saad.fww30.mongodb.net/
+
