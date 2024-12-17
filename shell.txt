@@ -5,7 +5,7 @@ db.Users.find({name: "Saad"}).pretty()
 db.Users.updateOne(
   {id: "P01"},
   {
-    $set: {name: "Saad Hussain", phoneNumber: "+919030358367"}
+    $set: {name: "John Cena", phoneNumber: "+97143387040 "}
   }
   )
 
