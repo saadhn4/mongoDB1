@@ -97,3 +97,45 @@ MongoDB structure:
 6. Document (Object)
 mongodb+srv://saad:<db_password>@saad.fww30.mongodb.net/
 
+MongoDB shell commands:
+
+1. use dbName - creates a database ; or switches into an existing one
+
+2. db.createCollection("collectionName") - creates a collection in database **db is fixed here!!!*
+
+3. db.collectionName.insertOne({"name":"Saad","age":20}) - adds a document in the collection 
+- this is if were adding them one by one
+- this is preffered.
+
+4. db.collectionName.insertMany([{"name":"Rahman","age":20},{"name":"Ismail","age":22}])
+
+5. db.collectionName.find({key: value}).pretty() - finds and desplays a user by the key given.
+
+6. db.Users.updateOne(
+  {id: "P01"},
+  {
+    $set: {name: "Saad Hussain", phoneNumber: "+919030358367"}
+  }
+  )
+
+  what if i want to delete a specific key?
+  instead of set we use "unset" and value ku empty string
+
+  db.Users.updateOne(
+  {id: "P01"},
+  {
+    $unset: {name: ""}
+  }
+  )
+
+  deletes the name key 
+
+  Updates the name and phoneNumber of a user with id: "PO1"
+  i can create a new key like email simply by adding email: "blah@exmaple.com" in the $set line
+
+  7. db.Users.deleteOne({id: "PO1"})
+  deletes the user with id PO1
+
+  8. db.collectionName.drop() - drops/deletes the collection
+
+  9. db.dropDatabase() - deletes the entire database
